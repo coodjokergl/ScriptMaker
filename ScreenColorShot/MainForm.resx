@@ -1,0 +1,279 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <metadata name="notifyIcon1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <metadata name="contextMenuStripColor.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>135, 17</value>
+  </metadata>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="notifyIcon1.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAABAAEAICAAAAEAIACoEAAAFgAAACgAAAAgAAAAQAAAAAEAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAD+/v7///////7+/v///////v7+//7+/v///////v7+////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ///////////////////////////////////////////////////+/v7/////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ///////////////////5+vr/vr/C//7+/v//////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////////////////////7O3u/1RWW/8NEBL/1NXX////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        /////////////////////////v7+/9fX2f8xNTn/CAsN/yMmL/+mp63/////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        //////////////////////////////7+/v+2uLr/Gh0h/wwPE/8yNT//Zmly/+fp6v//////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ///////////////////////////////////8/P3/jI6S/wsQFv8YGyH/Q0hR/5aZn//6+vr/////////
+        //////////////////////////////////////////////7+/v/+/v7/3N3e/77Bw//R0tL/+/v7//7+
+        /v///////////////////////////////////v7/8/P0/2Nma/8JDBL/Ki42/1heaP/Hycz//v7+////
+        ///////////////////////////////////////////////////+/v7/wcPF/3R5fv+WnKL/t7zB/6mv
+        tf+Bhov/pKeq//z8/P///////////////////////v7+/+Hh4/8/Qkj/Cg4V/0FGUP98gIf/6uvt////
+        /////////////////////////////////////////////////////////v7+/5+jpv+boKX/7/L1//T3
+        +//3+v7/9/r+//j6/v/M0NT/iIyQ//f39/////////////7+/v/Excj/IyYt/xcaI/9XW2X/pKet//z8
+        /P////////////////////////////////////////////////////////////////+1t7j/q7C0//P2
+        +v/1+Pz/9/r+//f6/v/3+v7/9/r+//f6/v/g4+f/hYmN//Hx8f/9/v7/nZ+i/xMVG/8rLzj/a294/83Q
+        0//+/v7/////////////////////////////////////////////////////////////////7e3t/4uQ
+        lf/z9vn/9Pf7//f6/v/3+v7/9/r+//f6/v/3+v7/9/r+//f6/v/Dx8z/TE1T/2tucv8NEBb/PD9I/4KH
+        kf/t7+///v7+////////////////////////////////////////////////////////////////////
+        //+doaT/4eTn//P2+v/2+f3/9/r+//f6/v/3+v7/9/r+//f6/v/3+v7/9/r+//b5/P9rb3b/EhYd/0RK
+        VP+mqbD//Pz9////////////////////////////////////////////////////////////////////
+        /////////f39/5KVmf/y9fn/9Pf7//f6/v/3+v7/9/r+//f6/v/3+v7/9/r+//f6/v/3+v7/9vn9/8rP
+        0/8rLzf/zM/S////////////////////////////////////////////////////////////////////
+        ///////////////////b29z/vL/D//P2+v/1+Pz/9/r+//f6/v/3+v7/9/r+//f6/v/3+v7/9/r+//f6
+        /v/3+v7/8fT3/0pPVv/+/v7/////////////////////////////////////////////////////////
+        /////////////////////////////7Cztf/j5ur/8/b6//f6/v/3+v7/9/r+//f6/v/3+v7/9/r+//f6
+        /v/3+v7/9/r+//f6/v/09/r/fH+F//7+/v//////////////////////////////////////////////
+        ////////////////////////////////////////nZ+j//Dz9//09/v/9/r+//f6/v/3+v7/9/r+//f6
+        /v/3+v7/9/r+//f6/v/3+v7/9/r+//P2+v+YnaL//v7+////////////////////////////////////
+        //////////////////////////////////////////////////+bnqD/8PP2//T3+//3+v7/9/r+//f6
+        /v/3+v7/9/r+//f6/v/3+v7/9/r+//f6/v/2+f3/8/b6/5ygpv/9/v7/////////////////////////
+        /////////////////////////////////////////////////////////////5qcn//w8vb/9Pf7//f6
+        /v/3+v7/9/r+//f6/v/3+v7/9/r+//f6/v/3+v7/9/r+//X4/P/z9vr/nKGm//3+/v//////////////
+        ////////////////////////////////////////////////////////////////////////mZyg/+7x
+        9P/09/v/9/r+//f6/v/3+v7/9/r+//f6/v/3+v7/9/r+//f6/v/3+v7/9Pf7//P2+v+eoaf//v7+////
+        ////////////////////////////////////////////////////////////////////////////////
+        //+kpqn/4OPn//P2+v/3+v7/9/r+//f6/v/3+v7/9/r+//f6/v/3+v7/9/r+//b5/f/z9vr/8/X5/56i
+        p///////////////////////////////////////////////////////////////////////////////
+        /////////////8zNz/+3u7//8PP3//f6/v/3+v7/9/r+//f6/v/3+v7/9/r+//f6/v/3+v7/9Pf7//P2
+        +v/v8vb/oaSo////////////////////////////////////////////////////////////////////
+        ////////////////////////+vr6/4mOkf/s7/T/9fj8//f6/v/3+v7/9/r+//f6/v/3+v7/9/r+//b5
+        /f/z9vr/8vX5/8LGyv/Jys3/////////////////////////////////////////////////////////
+        ////////////////////////////////////////kpaa/9fa3v/x9Pj/9/r+//f6/v/3+v7/9/r+//f6
+        /v/1+Pz/8/b6//L1+f/u8fX/i5CW//v7+///////////////////////////////////////////////
+        ///////////////////////////////////////////////////m5uf/f4SK/+bo7f/y9fn/9fj8//b5
+        /f/2+f3/9Pf7//P2+v/x9Pj/7vH1/7/Dx/+xtLf/////////////////////////////////////////
+        //////////////////////////////////////////////////////////////7+/v+kqq3/nqKq/+bp
+        7f/v8vb/8fT4//H0+P/x9Pj/7/L2/+3w9P/X2t7/gYSK//39/f//////////////////////////////
+        //////////////////////////////////////////////////////////////////////////////7+
+        /v+NkJT/kJWb/+Ll6v/s7/L/7PDz/+zw8//r7fH/x8rO/25yeP/u7u//////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        //////////////7+/v+ztbf/aGtx/4+Tmf+tsrb/o6es/3N3fv+Eh47/8fLy////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        //////////////////////////////7+/v/7+/v/0tPT/7i4uv++wML/6+zt//7+/v//////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////////////////////AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=
+</value>
+  </data>
+  <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAABAAEAICAAAAEAIACoEAAAFgAAACgAAAAgAAAAQAAAAAEAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAD+/v7///////7+/v///////v7+//7+/v///////v7+////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ///////////////////////////////////////////////////+/v7/////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ///////////////////5+vr/vr/C//7+/v//////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////////////////////7O3u/1RWW/8NEBL/1NXX////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        /////////////////////////v7+/9fX2f8xNTn/CAsN/yMmL/+mp63/////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        //////////////////////////////7+/v+2uLr/Gh0h/wwPE/8yNT//Zmly/+fp6v//////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ///////////////////////////////////8/P3/jI6S/wsQFv8YGyH/Q0hR/5aZn//6+vr/////////
+        //////////////////////////////////////////////7+/v/+/v7/3N3e/77Bw//R0tL/+/v7//7+
+        /v///////////////////////////////////v7/8/P0/2Nma/8JDBL/Ki42/1heaP/Hycz//v7+////
+        ///////////////////////////////////////////////////+/v7/wcPF/3R5fv+WnKL/t7zB/6mv
+        tf+Bhov/pKeq//z8/P///////////////////////v7+/+Hh4/8/Qkj/Cg4V/0FGUP98gIf/6uvt////
+        /////////////////////////////////////////////////////////v7+/5+jpv+boKX/7/L1//T3
+        +//3+v7/9/r+//j6/v/M0NT/iIyQ//f39/////////////7+/v/Excj/IyYt/xcaI/9XW2X/pKet//z8
+        /P////////////////////////////////////////////////////////////////+1t7j/q7C0//P2
+        +v/1+Pz/9/r+//f6/v/3+v7/9/r+//f6/v/g4+f/hYmN//Hx8f/9/v7/nZ+i/xMVG/8rLzj/a294/83Q
+        0//+/v7/////////////////////////////////////////////////////////////////7e3t/4uQ
+        lf/z9vn/9Pf7//f6/v/3+v7/9/r+//f6/v/3+v7/9/r+//f6/v/Dx8z/TE1T/2tucv8NEBb/PD9I/4KH
+        kf/t7+///v7+////////////////////////////////////////////////////////////////////
+        //+doaT/4eTn//P2+v/2+f3/9/r+//f6/v/3+v7/9/r+//f6/v/3+v7/9/r+//b5/P9rb3b/EhYd/0RK
+        VP+mqbD//Pz9////////////////////////////////////////////////////////////////////
+        /////////f39/5KVmf/y9fn/9Pf7//f6/v/3+v7/9/r+//f6/v/3+v7/9/r+//f6/v/3+v7/9vn9/8rP
+        0/8rLzf/zM/S////////////////////////////////////////////////////////////////////
+        ///////////////////b29z/vL/D//P2+v/1+Pz/9/r+//f6/v/3+v7/9/r+//f6/v/3+v7/9/r+//f6
+        /v/3+v7/8fT3/0pPVv/+/v7/////////////////////////////////////////////////////////
+        /////////////////////////////7Cztf/j5ur/8/b6//f6/v/3+v7/9/r+//f6/v/3+v7/9/r+//f6
+        /v/3+v7/9/r+//f6/v/09/r/fH+F//7+/v//////////////////////////////////////////////
+        ////////////////////////////////////////nZ+j//Dz9//09/v/9/r+//f6/v/3+v7/9/r+//f6
+        /v/3+v7/9/r+//f6/v/3+v7/9/r+//P2+v+YnaL//v7+////////////////////////////////////
+        //////////////////////////////////////////////////+bnqD/8PP2//T3+//3+v7/9/r+//f6
+        /v/3+v7/9/r+//f6/v/3+v7/9/r+//f6/v/2+f3/8/b6/5ygpv/9/v7/////////////////////////
+        /////////////////////////////////////////////////////////////5qcn//w8vb/9Pf7//f6
+        /v/3+v7/9/r+//f6/v/3+v7/9/r+//f6/v/3+v7/9/r+//X4/P/z9vr/nKGm//3+/v//////////////
+        ////////////////////////////////////////////////////////////////////////mZyg/+7x
+        9P/09/v/9/r+//f6/v/3+v7/9/r+//f6/v/3+v7/9/r+//f6/v/3+v7/9Pf7//P2+v+eoaf//v7+////
+        ////////////////////////////////////////////////////////////////////////////////
+        //+kpqn/4OPn//P2+v/3+v7/9/r+//f6/v/3+v7/9/r+//f6/v/3+v7/9/r+//b5/f/z9vr/8/X5/56i
+        p///////////////////////////////////////////////////////////////////////////////
+        /////////////8zNz/+3u7//8PP3//f6/v/3+v7/9/r+//f6/v/3+v7/9/r+//f6/v/3+v7/9Pf7//P2
+        +v/v8vb/oaSo////////////////////////////////////////////////////////////////////
+        ////////////////////////+vr6/4mOkf/s7/T/9fj8//f6/v/3+v7/9/r+//f6/v/3+v7/9/r+//b5
+        /f/z9vr/8vX5/8LGyv/Jys3/////////////////////////////////////////////////////////
+        ////////////////////////////////////////kpaa/9fa3v/x9Pj/9/r+//f6/v/3+v7/9/r+//f6
+        /v/1+Pz/8/b6//L1+f/u8fX/i5CW//v7+///////////////////////////////////////////////
+        ///////////////////////////////////////////////////m5uf/f4SK/+bo7f/y9fn/9fj8//b5
+        /f/2+f3/9Pf7//P2+v/x9Pj/7vH1/7/Dx/+xtLf/////////////////////////////////////////
+        //////////////////////////////////////////////////////////////7+/v+kqq3/nqKq/+bp
+        7f/v8vb/8fT4//H0+P/x9Pj/7/L2/+3w9P/X2t7/gYSK//39/f//////////////////////////////
+        //////////////////////////////////////////////////////////////////////////////7+
+        /v+NkJT/kJWb/+Ll6v/s7/L/7PDz/+zw8//r7fH/x8rO/25yeP/u7u//////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        //////////////7+/v+ztbf/aGtx/4+Tmf+tsrb/o6es/3N3fv+Eh47/8fLy////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        //////////////////////////////7+/v/7+/v/0tPT/7i4uv++wML/6+zt//7+/v//////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////////////////////AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=
+</value>
+  </data>
+</root>
